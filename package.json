@@ -1,11 +1,16 @@
 {
-  "name": "backend_setup",
-  "version": "1.0.0",
-  "description": "Setting Up Backend Project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Shekhar Sharma",
-  "license": "ISC"
+	"name": "backend_setup",
+	"version": "1.0.0",
+	"description": "Setting Up Backend Project",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.js"
+	},
+	"author": "Shekhar Sharma",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.0.3",
+		"prettier": "^3.2.5"
+	}
 }
