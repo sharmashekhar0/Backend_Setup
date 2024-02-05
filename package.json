@@ -1,16 +1,21 @@
 {
-	"name": "backend_setup",
-	"version": "1.0.0",
-	"description": "Setting Up Backend Project",
-	"type": "module",
-	"main": "index.js",
-	"scripts": {
-		"dev": "nodemon src/index.js"
-	},
-	"author": "Shekhar Sharma",
-	"license": "ISC",
-	"devDependencies": {
-		"nodemon": "^3.0.3",
-		"prettier": "^3.2.5"
-	}
+    "name": "backend_setup",
+    "version": "1.0.0",
+    "description": "Setting Up Backend Project",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    },
+    "author": "Shekhar Sharma",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.0.3",
+        "prettier": "^3.2.5"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.1",
+        "express": "^4.18.2",
+        "mongoose": "^8.1.1"
+    }
 }
