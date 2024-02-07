@@ -72,3 +72,17 @@ node -i -D prettier
 
 -   .prettierrc
 -   .prettierignore
+
+### Step 13: export db connect function from db/index.js
+
+### Step 14: Install dotenv and configure it in index file
+
+```
+import dotenv from "dotenv";
+
+dotenv.config({
+    path: "/.env",
+});
+```
+
+### Step 15: import db connect function in index file and call it
